@@ -1,0 +1,22 @@
+A minimalistic chat server using Node.js
+========================================
+
+Found on the web:
+
+    http://dhotson.tumblr.com/post/271733389/a-simple-chat-server-in-node-js
+
+(With little modifications by me)
+
+1. Starting server: 
+    
+    $ node chat.js
+
+2. Clients can connect with netcat: 
+
+    $ nc localhost 7000
+
+OPTIONS:
+
+    /user  -->  Shows all online users.
+
+    /quit  -->  End the chat appliacation.
